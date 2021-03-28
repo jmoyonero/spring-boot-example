@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+body {
+    font-family: 'Dela Gothic One', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+    position: absolute;
+    bottom: 0;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#puzzle {
+    height: 200px;
+}
+
+.roomscape {
+    font-size: 32px;
+}
